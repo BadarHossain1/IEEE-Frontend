@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -17,36 +18,36 @@ const Footer = () => {
                 <div className="bg-white text-gray-700 rounded-xl shadow-lg p-6 w-full sm:w-[30%]">
                     <h2 className="text-xl font-semibold text-black mb-4">Quick Links</h2>
                     <ul className="space-y-3">
-                        <li><a href="#" className="hover:text-yellow-400">Ask a Question</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">About IEEE LU SB</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">About IEEE LU SB IAS</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">About IEEE LU SB PES</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">About IEEE LU SB RAS</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">About IEEE LU SB WE</a></li>
+                        <li><Link to={"/"}className="hover:text-yellow-400">Ask a Question</Link></li>
+                        <li><Link to={"/"}className="hover:text-yellow-400">About IEEE LU SB</Link></li>
+                        <li><Link to={"/"}className="hover:text-yellow-400">About IEEE LU SB IAS</Link></li>
+                        <li><Link to={"/"}className="hover:text-yellow-400">About IEEE LU SB PES</Link></li>
+                        <li><Link to={"/"}className="hover:text-yellow-400">About IEEE LU SB RAS</Link></li>
+                        <li><Link to={"/"}className="hover:text-yellow-400">About IEEE LU SB WE</Link></li>
                     </ul>
                 </div>
 
                 <div className="bg-white text-gray-700 rounded-xl shadow-lg p-6 w-full sm:w-[30%]">
                     <h2 className="text-xl font-semibold text-black mb-4">Resources</h2>
                     <ul className="space-y-3">
-                        <li><i className="fa-solid fa-newspaper mr-2"></i><a href="#" className="hover:text-yellow-400">News</a></li>
-                        <li><i className="fa-solid fa-calendar-days mr-2"></i><a href="#" className="hover:text-yellow-400">Upcoming Events</a></li>
-                        <li><i className="fa-solid fa-screwdriver-wrench mr-2"></i><a href="#" className="hover:text-yellow-400">Toolkit</a></li>
-                        <li><i className="fa-solid fa-photo-film mr-2"></i><a href="#" className="hover:text-yellow-400">Gallery</a></li>
-                        <li><i className="fa-solid fa-book mr-2"></i><a href="#" className="hover:text-yellow-400">Magazines</a></li>
-                        <li><i className="fa-solid fa-file-lines mr-2"></i><a href="#" className="hover:text-yellow-400">Research Papers</a></li>
+                        <li><i className="fa-solid fa-newspaper mr-2"></i><Link to={"/news"}className="hover:text-yellow-400">News</Link></li>
+                        <li><i className="fa-solid fa-calendar-days mr-2"></i><Link to={"/event"}className="hover:text-yellow-400">Upcoming Events</Link></li>
+                        <li><i className="fa-solid fa-screwdriver-wrench mr-2"></i><Link to={"/toolkit"}className="hover:text-yellow-400">Toolkit</Link></li>
+                        <li><i className="fa-solid fa-photo-film mr-2"></i><Link to={"/gallery"}className="hover:text-yellow-400">Gallery</Link></li>
+                        <li><i className="fa-solid fa-book mr-2"></i><Link to={"/megazine"}className="hover:text-yellow-400">Magazines</Link></li>
+                        <li><i className="fa-solid fa-file-lines mr-2"></i><Link to={"/researchPapers"}className="hover:text-yellow-400">Research Papers</Link></li>
                     </ul>
                 </div>
 
                 <div className="bg-white text-gray-700 rounded-xl shadow-lg p-6 w-full sm:w-[30%]">
                     <h2 className="text-xl font-semibold text-black mb-4">Member Area</h2>
                     <ul className="space-y-3">
-                        <li><i className="fa-solid fa-user-plus mr-2"></i><a href="#" className="hover:text-yellow-400">Join IEEE LU SB</a></li>
-                        <li><i className="fa-solid fa-pen mr-2"></i><a href="#" className="hover:text-yellow-400">Write a Blog</a></li>
-                        <li><i className="fa-solid fa-blog mr-2"></i><a href="#" className="hover:text-yellow-400">Blogs</a></li>
-                        <li><i className="fa-solid fa-trophy mr-2"></i><a href="#" className="hover:text-yellow-400">Achievements</a></li>
-                        <li><i className="fa-solid fa-users-gear mr-2"></i><a href="#" className="hover:text-yellow-400">Current Executive Body</a></li>
-                        <li><i className="fa-solid fa-star mr-2"></i><a href="#" className="hover:text-yellow-400">Exemplary Members</a></li>
+                        <li><i className="fa-solid fa-user-plus mr-2"></i><Link to={"/joinIEEE"}className="hover:text-yellow-400">Join IEEE LU SB</Link></li>
+                        <li><i className="fa-solid fa-pen mr-2"></i><Link to={"/blogWriting"}className="hover:text-yellow-400">Write a Blog</Link></li>
+                        <li><i className="fa-solid fa-blog mr-2"></i><Link to={"/blog"}className="hover:text-yellow-400">Blogs</Link></li>
+                        <li><i className="fa-solid fa-trophy mr-2"></i><Link to={"/achievement"}className="hover:text-yellow-400">Achievements</Link></li>
+                        <li><i className="fa-solid fa-users-gear mr-2"></i><Link to={"/"}className="hover:text-yellow-400">Current Executive Body</Link></li>
+                        <li><i className="fa-solid fa-star mr-2"></i><Link to={"/"}className="hover:text-yellow-400">Exemplary Members</Link></li>
                     </ul>
                 </div>
             </div>
@@ -70,10 +71,10 @@ const Footer = () => {
                 <div>
                     <h2 className="text-white text-lg mb-2">Quick Links</h2>
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:text-yellow-400">Home</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">Contact</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">FAQ</a></li>
-                        <li><a href="#" className="hover:text-yellow-400">Privacy Policy</a></li>
+                        <li><Link to={"/"} className="hover:text-yellow-400">Home</Link></li>
+                        <li><Link to={"/contact"} className="hover:text-yellow-400">Contact</Link></li>
+                        <li><Link to={"/faq"} className="hover:text-yellow-400">FAQ</Link></li>
+                        <li><Link to={"/achievement"}className="hover:text-yellow-400">Privacy Policy</Link></li>
                     </ul>
                 </div>
 

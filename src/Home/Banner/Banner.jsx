@@ -17,10 +17,10 @@ const Banner = () => {
 
     const overlayText = (
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black/40 px-4">
-            <h2 className="text-3xl md:text-5xl font-bold font-['Roboto'] mb-4">
-                Paramount<span className="text-[#ffbb00ef]"> Triumphants</span>
-            </h2>
-            <p className="text-base md:text-lg font-['Roboto'] leading-relaxed mb-6">
+            <h2 className="text-5xl md:text-6xl font-bold font-['Roboto'] mb-4">
+                <span className="text-[#ffbb00ef]"> IEEE</span> LU SB Chapter
+            </h2> 
+            <p className="text-base w-[80%] md:text-lg font-['Roboto'] leading-relaxed mb-6">
                 The Outstanding Student Branch with its set of skills and enthusiastic members thrives <br />
                 on achievements. Expand your networking and leadership competencies with the <br />
                 blooming mindset of individuals. Our Achievements
@@ -53,8 +53,8 @@ const Banner = () => {
                     "gellary1.jpg", "gellary3.jpg", "gellary7.jpg",
                     "eventbaner.jpg", "about.jpg"
                 ].map((img, index) => (
-                    <SwiperSlide key={index} className="relative h-auto">
-                        <img src={`../../../public/img/${img}`} alt="" className="w-full h-full object-cover" />
+                    <SwiperSlide key={index} className="relative h-auto md:h-[90vh] lg:h-[100vh]">
+                        <img src={`../../../public/img/${img}`} alt="" className="w-full h-[350px] object-cover" />
                         {overlayText}
                     </SwiperSlide>
                 ))}

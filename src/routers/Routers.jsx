@@ -1,8 +1,9 @@
 import React from 'react';
-import Home from '../Home/Home';
+
 import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
+
+import Navbar2 from '../Navbar/Navbar2';
 
 const Routers = () => {
     return (
@@ -13,7 +14,9 @@ const Routers = () => {
 
 
             <div className=''>
-                <Navbar></Navbar>
+                
+                <Navbar2></Navbar2>
+                
             </div>
             <div className='mb-[200px]'>
                 <Outlet></Outlet>

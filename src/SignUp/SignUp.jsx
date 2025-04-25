@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
   return (
@@ -16,9 +17,9 @@ const SignUp = () => {
         <h1 className="text-2xl font-semibold py-2">Create an Account</h1>
         <p className="text-sm">
           I have an account!{' '}
-          <a href="signin.html" className="text-blue-400 hover:underline">
+          <Link href="signin.html" className="text-[#ffbb00ef] hover:underline">
             Sign In
-          </a>
+          </Link>
         </p>
 
         <form className="flex flex-col gap-5 w-[70%] mx-auto mt-5">
@@ -27,39 +28,39 @@ const SignUp = () => {
             name="email"
             id="email"
             placeholder="Your IEEE ID"
-            className="p-2 rounded-md bg-black border border-blue-500 text-white placeholder:text-white"
+            className="p-2 rounded-md bg-black border border-[#ffbb00ef] text-white placeholder:text-white"
           />
           <input
             type="text"
             name="name"
             id="name"
             placeholder="User Name"
-            className="p-2 rounded-md bg-black border border-blue-500 text-white placeholder:text-white"
+            className="p-2 rounded-md bg-black border border-[#ffbb00ef] text-white placeholder:text-white"
           />
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Your Email"
-            className="p-2 rounded-md bg-black border border-blue-500 text-white placeholder:text-white"
+            className="p-2 rounded-md bg-black border border-[#ffbb00ef] text-white placeholder:text-white"
           />
           <input
             type="password"
             name="password"
             id="password"
             placeholder="Enter Password"
-            className="p-2 rounded-md bg-black border border-blue-500 text-white placeholder:text-white"
+            className="p-2 rounded-md bg-black border border-[#ffbb00ef] text-white placeholder:text-white"
           />
           <input
             type="password"
             name="password"
             id="password"
             placeholder="Confirm Password"
-            className="p-2 rounded-md bg-black border border-blue-500 text-white placeholder:text-white"
+            className="p-2 rounded-md bg-black border border-[#ffbb00ef] text-white placeholder:text-white"
           />
           <button
             type="submit"
-            className="p-2 rounded-md bg-blue-500 text-white border border-blue-500 hover:bg-transparent hover:text-white transition-all"
+            className="p-2 rounded-md bg-[#ffbb00ef] text-white border border-[#ffbb00ef] hover:bg-transparent hover:text-white transition-all"
           >
             Submit
           </button>
