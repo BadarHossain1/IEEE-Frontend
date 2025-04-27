@@ -11,7 +11,7 @@ import {
 import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    
     const [activeDropdown, setActiveDropdown] = useState(null);
     const [teamOpen, setTeamOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

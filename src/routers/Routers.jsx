@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 
 import Navbar2 from '../Navbar/Navbar2';
+import Navbar from '../Navbar/Navbar';
 
 const Routers = () => {
     return (
@@ -14,8 +15,8 @@ const Routers = () => {
 
 
             <div className=''>
-                
-                <Navbar2></Navbar2>
+                <Navbar></Navbar>
+                {/* <Navbar2></Navbar2> */}
                 
             </div>
             <div className='mb-[200px]'>
