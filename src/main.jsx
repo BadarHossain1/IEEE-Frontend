@@ -32,6 +32,17 @@ import Portal from "./Portal/Portal.jsx";
 import ProgramCoordinator from "./ProgramCoordinator/ProgramCoordinator.jsx";
 import SignIn from "./SignIn/SignIn.jsx";
 import SignUp from "./SignUp/SignUp.jsx";
+import AboutIEEE from "./IEEE/AboutIEEE.jsx";
+import JoinUs from "./JoinUS/JoinUs.jsx";
+import PublicationNewsletter from './PublicationNewsletter/PublicationNewsletter';
+import PublicityCoordinator from './PublicityCoordinator/PublicityCoordinator';
+import ChiefReportingExecutive from './Chief Reporting Executive/ChiefReportingExecutive';
+import PhotographyExecutive from './Photography Executive/PhotographyExecutive';
+import LogisticExecutive from './Logistic Executive/LogisticExecutive';
+import ACM from './ACM coordinator/ACM';
+import MembershipDevelopment from './MembershipDevelopment/MembershipDevelopment';
+import GraphicsDesign from './Graphic design executive/GraphicsDesign';
+import VideoContent from './Video Content Executive/VideoContent';
 
 
 const router = createBrowserRouter([
@@ -117,6 +128,60 @@ const router = createBrowserRouter([
         path: '/programCoordinator',
         element: <ProgramCoordinator></ProgramCoordinator>
       },
+      {
+        path: '/IEEE',
+        element: <AboutIEEE></AboutIEEE>
+      },
+      {
+        path: '/join',
+        element: <JoinUs></JoinUs>
+      },
+      {
+        path: '/publication-newsletter-coordinator',
+        element: <PublicationNewsletter></PublicationNewsletter>
+      },
+      {
+        path: '/publicity-coordinator',
+        element: <PublicityCoordinator></PublicityCoordinator>
+      },
+      {
+        path: '/chief-reporting-executive',
+        element: <ChiefReportingExecutive></ChiefReportingExecutive>
+      },
+      {
+        path: '/photography-executive',
+        element: <PhotographyExecutive></PhotographyExecutive>
+      },
+      {
+        path: '/logistic-executive',
+        element: <LogisticExecutive></LogisticExecutive>
+      },
+      {
+        path: '/acm-coordinator',
+        element: <ACM></ACM>
+      },
+      {
+        path: '/membership-development-coordinator',
+        element: <MembershipDevelopment></MembershipDevelopment>
+      },
+      {
+        path: '/membership-development-coordinator',
+        element: <MembershipDevelopment></MembershipDevelopment>
+      },
+      {
+        path: '/webmaster',
+        element: <Webmaster></Webmaster>
+      },
+      
+      {
+        path: '/graphics-design-executive',
+        element: <GraphicsDesign></GraphicsDesign>
+      },
+      {
+        path: '/video-content-executive',
+        element: <VideoContent></VideoContent>
+      },
+
       
 
 

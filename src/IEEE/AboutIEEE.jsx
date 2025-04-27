@@ -1,0 +1,377 @@
+import { ExternalLink } from "lucide-react";
+import React from "react";
+
+const AboutIEEE = () => {
+    return (
+        <div className="w-full mx-auto  ">
+
+            <div className="flex justify-center items-center w-full h-[300px] bg-gradient-to-r from-blue-900 to-blue-700  mt-[1px]">
+                <h1 className="text-4xl font-bold text-center text-white *:mb-6">
+                    About-IEEE
+                </h1>
+            </div>
+            <div className=" bg-white  pt-20 pb-10 px-6 md:px-20">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-42 ">
+
+                    {/* Left side - IEEE Logo */}
+                    <div className="flex justify-center">
+                        <img
+                            src="/path-to-your-image/ieee-logo.png" // <-- Update this path
+                            alt="IEEE Logo"
+                            className="w-60 h-60 object-contain"
+                        />
+                    </div>
+
+                    {/* Right side - About Text */}
+                    <div className="max-w-xl lg:ml-[40px]">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                            About <span className="block w-26 h-1 bg-yellow-400 mt-2"></span>
+                        </h2>
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            IEEE (Institute of Electrical and Electronics Engineers)
+                            is a large professional association for engineers. Its corporate office
+                            is in New York City at United States and its headquarter is located at
+                            Piscataway, New Jersey, United States. This association focuses to develop
+                            Electrical Electronic and Technical sites, Computer Science and Engineering
+                            sites and finally the Telecommunications sites. This is the world wide
+                            association for all engineers nowadays.
+
+                        </p>
+
+                        {/* Buttons */}
+                        <div className="flex gap-4 mt-6">
+                            <button className="bg-blue-900 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded">
+                                Learn More
+                            </button>
+                            <button className="border-2 border-yellow-400 hover:bg-yellow-400 hover:text-white text-blue-900 font-semibold py-2 px-6 rounded">
+                                Mission and Vision
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+
+                    {/* Left side - Text content */}
+                    <div className="max-w-xl">
+                        <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                            Largest Community
+                            <span className="block w-16 h-1 bg-yellow-400 mt-2"></span>
+                        </h2>
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            Institute of Electrical and Electronics Engineers (IEEE) is the largest world wide
+                            professional association for engineering sites. IEEE starts with 150,000 members
+                            (93% from US) group which is now extended with over 400,000 members from 160 countries,
+                            with the U.S. based membership no longer constituting a majority. It has the biggest
+                            community with a huge number of members and workers. There are huge numbers of
+                            Technical Societies, Technical councils and Technical Committees under IEEE.
+                            The IEEE community is like a family with so many heartiest peoples.
+                            To know more about this
+                        </p>
+
+                        {/* Links */}
+                        <div className="mt-6 flex flex-col gap-2 text-blue-700">
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> Technical Society
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> Technical Councils
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> Technical Committees
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Right side - Image */}
+                    <div className="flex justify-center">
+                        <img
+                            src="/path-to-your-image/community-image.png" // <-- Update this path
+                            alt="Community Network"
+                            className="w-[400px] h-auto object-contain"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div className="bg-[#083B64] py-16 px-6 md:px-20">
+                <div className="grid md:grid-cols-2 gap-10 justify-between  ">
+
+                    {/* Start with IEEE */}
+                    <div className="border-r border-white pr-8">
+                        <h2 className="text-3xl font-bold text-white mb-4">
+                            Start with IEEE
+                            <div className="w-16 h-1 bg-white mt-2"></div>
+                        </h2>
+                        <p className="text-white text-justify leading-relaxed">
+                            Who doesn’t wanna gain knowledge by experiencing something new and exciting!!
+                            If you wanna explore your life in a whole new way then IEEE is the best association
+                            for you. It will give you thousands of platforms and growing activities by which you
+                            can prepare yourself with a presentable way of thinking. If you are interested to
+                            experience and to gain knowledge about the unknown mysterious techniques and inventions
+                            of science and Technology, then start with IEEE. Here is some extra ordinary communities
+                            and activities where you can involve easily and explore yourself.
+                        </p>
+
+                        {/* Links */}
+                        <div className="mt-6 flex flex-col gap-2 text-yellow-400">
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> IEEE Xplore
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> IEEE Spectrum
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> IEEE Standards
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Collaboration */}
+                    <div className="pl-8">
+                        <h2 className="text-3xl font-bold text-white mb-4">
+                            Collaboration
+                            <div className="w-16 h-1 bg-white mt-2"></div>
+                        </h2>
+                        <p className="text-white text-justify leading-relaxed">
+                            In the Institute of Electrical and Electronics Engineers (IEEE), there are endless
+                            opportunities to grow but you must have to find your own field to stand high.
+                            Collaborating with many international technology professionals and verified IEEE
+                            members from different countries, anyone can establish their professional identity.
+                            IEEE is always in the first position for expanding professional network with current
+                            contact, finding easy communication or conversation with technical experts, shorting
+                            out any kind of queries about any technical, geographic locations, IEEE membership
+                            grades etc by creating a lot of international and internal communities, meetings
+                            and seminars.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div className="bg-[#083B64] py-16 px-6 md:px-20">
+                <div className="grid md:grid-cols-2 gap-10 justify-between  ">
+
+                    {/* Publications */}
+                    <div className="border-r border-white pr-8">
+                        <h2 className="text-3xl font-bold text-white mb-4">
+                            Publications
+                            <div className="w-16 h-1 bg-white mt-2"></div>
+                        </h2>
+                        <p className="text-white text-justify leading-relaxed">
+                            Who doesn’t wanna gain knowledge by experiencing something new and exciting!!
+                            If you wanna explore your life in a whole new way then IEEE is the best association
+                            for you. It will give you thousands of platforms and growing activities by which you
+                            can prepare yourself with a presentable way of thinking.
+                        </p>
+
+                        {/* Links */}
+                        <div className="mt-6 flex flex-col gap-2 text-yellow-400">
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> IEEE Publications
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> List of IEEE publications
+                            </a>
+
+                        </div>
+                    </div>
+
+                    {/* Events and conferences */}
+                    <div className="pl-8">
+                        <h2 className="text-3xl font-bold text-white mb-4">
+                            Events and Conferences
+                            <div className="w-16 h-1 bg-white mt-2"></div>
+                        </h2>
+                        <p className="text-white text-justify leading-relaxed">
+                            In the Institute of Electrical and Electronics Engineers (IEEE), there are endless
+                            opportunities to grow but you must have to find your own field to stand high.
+                            Collaborating with many international technology professionals and verified IEEE
+                            members from different countries, anyone can establish their professional identity.
+
+                        </p>
+                        {/* Links */}
+                        <div className="mt-6 flex flex-col gap-2 text-yellow-400">
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> IEEE Conference and Events
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> Conference and Event Search
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <ExternalLink size={18} /> Events and Conferences Calender
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            {/* The achivements section */}
+            <section className="bg-white py-12 px-6">
+                <div className="max-w-7xl mx-auto">
+                    {/* Title */}
+                    <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                        Achievements
+                    </h2>
+                    <div className="w-16 h-1 bg-yellow-400 mb-6"></div>
+
+                    {/* Description */}
+                    <p className="text-gray-700 text-lg leading-relaxed mb-10">
+                        Institute of Electrical and Electronics Engineers (IEEE) is the biggest platform of success and achievements.
+                        IEEE and its members inspire a global community through its highly cited publications, conferences, technology
+                        standards, and professional and educational activities. There are a huge number of achievement awards in the
+                        Institute of Electrical and Electronics Engineers (IEEE) from different sides. To know more about it please visit-
+                    </p>
+
+                    {/* Images */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {/* Image 1 */}
+                        <div className="bg-gray-200 h-auto rounded-md overflow-hidden">
+                            <img
+                                src="https://imgs.search.brave.com/gSJHx_zroj6oxO0FFBe4h-M4PdwH0J2mEbzTPklJvSY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9nb2xkZW4tY3Vw/LXRyb3BoeS1pc29s/YXRlZC13aGl0ZS0z/ZF81MDUwODAtNDg5/LmpwZz9zZW10PWFp/c19oeWJyaWQ"
+                                alt="Achievement 1"
+                                className="object-cover w-full h-full"
+                            />
+                        </div>
+
+                        {/* Image 2 */}
+                        <div className="bg-gray-200 h-auto rounded-md overflow-hidden">
+                            <img
+                                src="https://imgs.search.brave.com/gSJHx_zroj6oxO0FFBe4h-M4PdwH0J2mEbzTPklJvSY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9nb2xkZW4tY3Vw/LXRyb3BoeS1pc29s/YXRlZC13aGl0ZS0z/ZF81MDUwODAtNDg5/LmpwZz9zZW10PWFp/c19oeWJyaWQ"
+                                alt="Achievement 2"
+                                className="object-cover w-full h-full"
+                            />
+                        </div>
+
+                        {/* Image 3 */}
+                        <div className="bg-gray-200 h-auto rounded-md overflow-hidden">
+                            <img
+                                src="https://imgs.search.brave.com/gSJHx_zroj6oxO0FFBe4h-M4PdwH0J2mEbzTPklJvSY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9nb2xkZW4tY3Vw/LXRyb3BoeS1pc29s/YXRlZC13aGl0ZS0z/ZF81MDUwODAtNDg5/LmpwZz9zZW10PWFp/c19oeWJyaWQ"
+                                alt="Achievement 3"
+                                className="object-cover w-full h-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+
+                    {/* Left side - Text content */}
+                    <div className="max-w-xl">
+                        <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                            Innovations and Development
+                            <span className="block w-16 h-1 bg-yellow-400 mt-2"></span>
+                        </h2>
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            Institute of Electrical and Electronics Engineers (IEEE) is the largest world wide
+                            professional association for engineering sites. IEEE starts with 150,000 members
+                            (93% from US) group which is now extended with over 400,000 members from 160 countries,
+                            with the U.S. based membership no longer constituting a majority. It has the biggest
+                            community with a huge number of members and workers. 
+                        </p>
+
+                        {/* Links */}
+                        <div className="mt-6 flex flex-col gap-2 text-blue-700">
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> Development and Innovations. 
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    {/* Right side - Image */}
+                    <div className="flex justify-center">
+                        <img
+                            src="/path-to-your-image/community-image.png" // <-- Update this path
+                            alt="Community Network"
+                            className="w-[400px] h-auto object-contain"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
+                <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-10">
+
+                    {/* Left side - Text content */}
+                    <div className="max-w-xl">
+                        <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                            Student and Member Activities
+                            <span className="block w-16 h-1 bg-yellow-400 mt-2"></span>
+                        </h2>
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            Institute of Electrical and Electronics Engineers (IEEE) is the largest world wide
+                            professional association for engineering sites. IEEE starts with 150,000 members
+                            (93% from US) group which is now extended with over 400,000 members from 160 countries,
+                            with the U.S. based membership no longer constituting a majority. It has the biggest
+                            community with a huge number of members and workers. IEEE starts with 150,000 members
+                            (93% from US) group which is now extended with over 400,000 members from 160 countries,
+                            with the U.S. based membership no longer constituting a majority. It has the biggest
+                            community with a huge number of members and workers. 
+                        </p>
+
+                        {/* Links */}
+                        <div className="mt-6 flex flex-col gap-2 text-blue-700">
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> IEEE Students. 
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> IEEE Student branch programmer. 
+                            </a>
+                            <a href="#" className="flex items-center gap-2 hover:underline">
+                                <span>🔗</span> IEEE Membership. 
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    {/* Right side - Image */}
+                    <div className="flex justify-center">
+                        <img
+                            src="/path-to-your-image/community-image.png" // <-- Update this path
+                            alt="Community Network"
+                            className="w-[400px] h-auto object-contain"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+
+                    {/* Left side - Text content */}
+                    <div className="max-w-xl">
+                        <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                            Quality
+                            <span className="block w-16 h-1 bg-yellow-400 mt-2"></span>
+                        </h2>
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            Institute of Electrical and Electronics Engineers (IEEE) is the largest world wide
+                            professional association for engineering sites. IEEE starts with 150,000 members
+                            (93% from US) group which is now extended with over 400,000 members from 160 countries,
+                            with the U.S. based membership no longer constituting a majority. It has the biggest
+                            community with a huge number of members and workers. IEEE starts with 150,000 members
+                            (93% from US) group which is now extended with over 400,000 members from 160 countries,
+                            with the U.S. based membership no longer constituting a majority. It has the biggest
+                            community with a huge number of members and workers. 
+                        </p>
+
+                        
+                    </div>
+
+                    {/* Right side - Image */}
+                    <div className="flex justify-center">
+                        <img
+                            src="/path-to-your-image/community-image.png" // <-- Update this path
+                            alt="Community Network"
+                            className="w-[400px] h-auto object-contain"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default AboutIEEE;

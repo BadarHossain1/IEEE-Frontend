@@ -5,7 +5,7 @@ const Event = () => {
     return (
         <div className="font-roboto bg-white text-[#141d28] w-[90%] mx-auto">
             {/* Hero Section */}
-            <section className="bg-[#141d28] text-white px-5 py-12 lg:px-45 lg:text-3xl sm:p-8 md:p-4 rounded-xl">
+            <section className="bg-[#141d28] text-white mt-5 px-5 py-12 lg:px-45 lg:text-3xl sm:p-8 md:p-4 rounded-xl">
                 <div className="">
                     <h1 className="text-4xl font-semibold">IEEE Tech Summit 2025</h1>
                     <h2 className="text-2xl text-[#ffc107] mt-2">Coming Soon</h2>

@@ -23,13 +23,7 @@ const SignUp = () => {
         </p>
 
         <form className="flex flex-col gap-5 w-[70%] mx-auto mt-5">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Your IEEE ID"
-            className="p-2 rounded-md bg-black border border-[#ffbb00ef] text-white placeholder:text-white"
-          />
+          
           <input
             type="text"
             name="name"

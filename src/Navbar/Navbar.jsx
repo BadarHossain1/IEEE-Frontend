@@ -148,9 +148,14 @@ const Navbar = () => {
                         <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-yellow-500">
+                                    <Link to="/join" className="block px-4 py-2 hover:bg-yellow-500">
+                                        Join With Us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/IEEE" className="block px-4 py-2 hover:bg-yellow-500">
                                         IEEE
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <a href="#" className="block px-4 py-2 hover:bg-yellow-500">
