@@ -43,6 +43,8 @@ import ACM from './ACM coordinator/ACM';
 import MembershipDevelopment from './MembershipDevelopment/MembershipDevelopment';
 import GraphicsDesign from './Graphic design executive/GraphicsDesign';
 import VideoContent from './Video Content Executive/VideoContent';
+import IEERegion10 from "./IEEE/IEERegion10.jsx";
+import IEEELU from "./IEEE/IEEELU.jsx";
 
 
 const router = createBrowserRouter([
@@ -180,6 +182,18 @@ const router = createBrowserRouter([
       {
         path: '/video-content-executive',
         element: <VideoContent></VideoContent>
+      },
+      {
+        path: '/IEEE-REGION-10',
+        element: <IEERegion10></IEERegion10>
+      },
+      {
+        path: '/IEEE-REGION-10',
+        element: <IEERegion10></IEERegion10>
+      },
+      {
+        path: '/IEEE-LU-BRANCH',
+        element: <IEEELU></IEEELU>
       },
 
       

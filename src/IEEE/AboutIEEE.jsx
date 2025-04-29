@@ -5,12 +5,12 @@ const AboutIEEE = () => {
     return (
         <div className="w-full mx-auto  ">
 
-            <div className="flex justify-center items-center w-full h-[300px] bg-gradient-to-r from-blue-900 to-blue-700  mt-[1px]">
+            <div className="flex justify-center items-center w-full h-[300px] bg-black  mt-[1px]">
                 <h1 className="text-4xl font-bold text-center text-white *:mb-6">
                     About-IEEE
                 </h1>
             </div>
-            <div className=" bg-white  pt-20 pb-10 px-6 md:px-20">
+            <div className=" w-[85%] mx-auto  pt-20 pb-10 px-6 md:px-20">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-42 ">
 
                     {/* Left side - IEEE Logo */}
@@ -23,7 +23,7 @@ const AboutIEEE = () => {
                     </div>
 
                     {/* Right side - About Text */}
-                    <div className="max-w-xl lg:ml-[40px]">
+                    <div className=" lg:ml-[40px]">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">
                             About <span className="block w-26 h-1 bg-yellow-400 mt-2"></span>
                         </h2>
@@ -50,7 +50,7 @@ const AboutIEEE = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
+            <div className=" w-[85%] mx-auto pt-20 pb-10 px-6 md:px-20">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-10">
 
                     {/* Left side - Text content */}
@@ -96,7 +96,7 @@ const AboutIEEE = () => {
             </div>
 
             <div className="bg-[#083B64] py-16 px-6 md:px-20">
-                <div className="grid md:grid-cols-2 gap-10 justify-between  ">
+                <div className="w-[85%] mx-auto  grid md:grid-cols-2 gap-10 justify-between  ">
 
                     {/* Start with IEEE */}
                     <div className="border-r border-white pr-8">
@@ -150,7 +150,7 @@ const AboutIEEE = () => {
                 </div>
             </div>
             <div className="bg-[#083B64] py-16 px-6 md:px-20">
-                <div className="grid md:grid-cols-2 gap-10 justify-between  ">
+                <div className=" w-[85%] mx-auto grid md:grid-cols-2 gap-10 justify-between  ">
 
                     {/* Publications */}
                     <div className="border-r border-white pr-8">
@@ -209,8 +209,8 @@ const AboutIEEE = () => {
             </div>
 
             {/* The achivements section */}
-            <section className="bg-white py-12 px-6">
-                <div className="max-w-7xl mx-auto">
+            <section className=" pt-20 pb-10 px-6 md:px-20">
+                <div className="w-[85%] mx-auto  ">
                     {/* Title */}
                     <h2 className="text-3xl font-bold text-blue-900 mb-4">
                         Achievements
@@ -256,8 +256,8 @@ const AboutIEEE = () => {
                     </div>
                 </div>
             </section>
-            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
-                <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+            <div className=" pt-20 pb-10 px-6 md:px-20">
+                <div className="w-[85%] mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
 
                     {/* Left side - Text content */}
                     <div className="max-w-xl">
@@ -270,15 +270,15 @@ const AboutIEEE = () => {
                             professional association for engineering sites. IEEE starts with 150,000 members
                             (93% from US) group which is now extended with over 400,000 members from 160 countries,
                             with the U.S. based membership no longer constituting a majority. It has the biggest
-                            community with a huge number of members and workers. 
+                            community with a huge number of members and workers.
                         </p>
 
                         {/* Links */}
                         <div className="mt-6 flex flex-col gap-2 text-blue-700">
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> Development and Innovations. 
+                                <span>🔗</span> Development and Innovations.
                             </a>
-                            
+
                         </div>
                     </div>
 
@@ -292,8 +292,8 @@ const AboutIEEE = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
-                <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-10">
+            <div className=" pt-20 pb-10 px-6 md:px-20">
+                <div className=" w-[85%] mx-auto  flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-10">
 
                     {/* Left side - Text content */}
                     <div className="max-w-xl">
@@ -309,21 +309,21 @@ const AboutIEEE = () => {
                             community with a huge number of members and workers. IEEE starts with 150,000 members
                             (93% from US) group which is now extended with over 400,000 members from 160 countries,
                             with the U.S. based membership no longer constituting a majority. It has the biggest
-                            community with a huge number of members and workers. 
+                            community with a huge number of members and workers.
                         </p>
 
                         {/* Links */}
                         <div className="mt-6 flex flex-col gap-2 text-blue-700">
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> IEEE Students. 
+                                <span>🔗</span> IEEE Students.
                             </a>
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> IEEE Student branch programmer. 
+                                <span>🔗</span> IEEE Student branch programmer.
                             </a>
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> IEEE Membership. 
+                                <span>🔗</span> IEEE Membership.
                             </a>
-                            
+
                         </div>
                     </div>
 
@@ -337,8 +337,8 @@ const AboutIEEE = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-white pt-20 pb-10 px-6 md:px-20">
-                <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+            <div className="pt-20 pb-10 px-6 md:px-20">
+                <div className="w-[85%] mx-auto  flex flex-col md:flex-row items-center justify-center gap-10">
 
                     {/* Left side - Text content */}
                     <div className="max-w-xl">
@@ -354,10 +354,10 @@ const AboutIEEE = () => {
                             community with a huge number of members and workers. IEEE starts with 150,000 members
                             (93% from US) group which is now extended with over 400,000 members from 160 countries,
                             with the U.S. based membership no longer constituting a majority. It has the biggest
-                            community with a huge number of members and workers. 
+                            community with a huge number of members and workers.
                         </p>
 
-                        
+
                     </div>
 
                     {/* Right side - Image */}
@@ -367,6 +367,49 @@ const AboutIEEE = () => {
                             alt="Community Network"
                             className="w-[400px] h-auto object-contain"
                         />
+                    </div>
+                </div>
+            </div>
+
+            <div className=" w-[50%] pt-20  mx-auto flex flex-col  justify-center">
+                <h2 className="text-2xl font-bold text-blue-900 mb-2">
+                    Contact Section
+                </h2>
+                <div className="w-16 h-1 bg-yellow-400 mb-6"></div>
+                <div className="space-y-4">
+                    <div className="flex flex-col md:flex-row md:items-start">
+                        <span className="font-semibold w-48">Asia Pacific:</span>
+                        <a
+                            href="https://site.ieee.org/ieeeap/contact-us/location/"
+                            className="text-blue-700 hover:underline"
+                        >
+                            https://site.ieee.org/ieeeap/contact-us/location/
+                        </a>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row md:items-start">
+                        <span className="font-semibold w-48">IEEE computer organization:</span>
+                        <a
+                            href="https://www.computer.org/about/contact"
+                            className="text-blue-700 hover:underline"
+                        >
+                            https://www.computer.org/about/contact
+                        </a>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row md:items-start">
+                        <span className="font-semibold w-48">Customer Service:</span>
+                        <span>00 1 732-981-0060</span>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row md:items-start">
+                        <span className="font-semibold w-48">Presidents:</span>
+                        <span>Karen Bartleson (2017–2018), James A. Jefferies (Incumbent)</span>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row md:items-start">
+                        <span className="font-semibold w-48">Founders:</span>
+                        <span>American Institute of Electrical Engineers, Institute of Radio Engineers</span>
                     </div>
                 </div>
             </div>

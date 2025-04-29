@@ -158,9 +158,9 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-yellow-500">
+                                    <Link to="/IEEE-REGION-10" className="block px-4 py-2 hover:bg-yellow-500">
                                         IEEE Region 10
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <a href="#" className="block px-4 py-2 hover:bg-yellow-500">
@@ -168,9 +168,9 @@ const Navbar = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-yellow-500">
+                                    <Link to="/IEEE-LU-BRANCH" className="block px-4 py-2 hover:bg-yellow-500">
                                         IEEE LU Student Branch
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link to="/faq" className="block px-4 py-2 hover:bg-yellow-500">
