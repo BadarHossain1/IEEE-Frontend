@@ -15,19 +15,19 @@ const About = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-5 p-5 ">
                         <div className="bg-gray-200/20 p-5 rounded-xl flex flex-col justify-center items-center">
-                            <h3 className="text-yellow-500 text-2xl font-bold leading-8 lg:ml-0  ml-2.5">500+</h3>
+                            <h3 className="text-[#f7a320] text-2xl font-bold leading-8 lg:ml-0  ml-2.5">500+</h3>
                             <p className="text-sm text-gray-600 font-bold w-[100%] text-center ">Active Member</p>
                         </div>
                         <div className="bg-gray-200/20 p-5 rounded-xl flex flex-col justify-center items-center">
-                            <h3 className="text-yellow-500 text-2xl font-bold leading-8 lg:ml-0  ml-2.5">50+</h3>
+                            <h3 className="text-[#f7a320] text-2xl font-bold leading-8 lg:ml-0  ml-2.5">50+</h3>
                             <p className="text-sm text-gray-600 font-bold w-[100%] text-center">Annual Events</p>
                         </div>
                         <div className="bg-gray-200/20 p-5 rounded-xl flex flex-col justify-center items-center">
-                            <h3 className="text-yellow-500 text-2xl font-bold leading-8 lg:ml-0  ml-2.5">20+</h3>
+                            <h3 className="text-[#f7a320] text-2xl font-bold leading-8 lg:ml-0  ml-2.5">20+</h3>
                             <p className="text-sm text-gray-600 font-bold w-[100%] text-center">Technical Workshops</p>
                         </div>
                         <div className="bg-gray-200/20 p-5 rounded-xl flex flex-col justify-center items-center">
-                            <h3 className="text-yellow-500 text-2xl font-bold leading-8 lg:ml-0  ml-2.5">10+</h3>
+                            <h3 className="text-[#f7a320] text-2xl font-bold leading-8 lg:ml-0  ml-2.5">10+</h3>
                             <p className="text-sm text-gray-600 font-bold w-[100%] text-center">Industry Partners</p>
                         </div>
                     </div>

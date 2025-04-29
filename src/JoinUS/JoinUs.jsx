@@ -4,12 +4,12 @@ const JoinUs = () => {
     return (
         <section className="bg-yellow-100 py-12 flex justify-center">
             <div className="bg-white p-8 w-full max-w-3xl shadow-lg rounded">
-                <h2 className="text-center text-3xl font-bold text-yellow-500 mb-6">IEEE Membership Registration</h2>
+                <h2 className="text-center text-3xl font-bold text-[#f7a320] mb-6">IEEE Membership Registration</h2>
 
                 <form className="space-y-6">
                     <div>
-                    <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
-                    <label className="block text-sm font-medium text-gray-700 mt-4">Global or Local</label>
+                        <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
+                        <label className="block text-sm font-medium text-gray-700 mt-4">Global or Local</label>
                         <select type="text" required className="w-full mt-1 p-2 border rounded" />
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
 
@@ -81,7 +81,7 @@ const JoinUs = () => {
                         </div>
                     </div>
 
-                    <button type="submit" className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded">
+                    <button type="submit" className="w-full bg-[#f7a320] hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded">
                         Submit Application
                     </button>
                 </form>

@@ -45,6 +45,7 @@ import GraphicsDesign from './Graphic design executive/GraphicsDesign';
 import VideoContent from './Video Content Executive/VideoContent';
 import IEERegion10 from "./IEEE/IEERegion10.jsx";
 import IEEELU from "./IEEE/IEEELU.jsx";
+import IEEEBangladesh from "./IEEE/IEEEBangladesh.jsx";
 
 
 const router = createBrowserRouter([
@@ -194,6 +195,10 @@ const router = createBrowserRouter([
       {
         path: '/IEEE-LU-BRANCH',
         element: <IEEELU></IEEELU>
+      },
+      {
+        path: '/IEEE-Bangladesh-section',
+        element: <IEEEBangladesh></IEEEBangladesh>
       },
 
       

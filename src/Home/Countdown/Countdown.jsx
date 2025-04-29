@@ -15,7 +15,7 @@ const Countdown = () => {
                     <div className="max-w-md">
                         <h1 className="mb-5 text-4xl font-bold">Next Event Countdown</h1>
                         <div className='flex justify-center items-center mb-3'>
-                            <div className="grid grid-flow-col gap-5 text-center  auto-cols-max text-yellow-500 font-extrabold">
+                            <div className="grid grid-flow-col gap-5 text-center  auto-cols-max text-[#f7a320] font-extrabold">
                                 <div className="flex flex-col">
                                     <span className="countdown font-mono text-5xl ">
                                         <span

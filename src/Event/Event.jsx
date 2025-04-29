@@ -21,7 +21,7 @@ const Event = () => {
                                 <p className="text-sm">{label}</p>
                             </div>
                         ))}
-                        <button className="ml-6 p-2 bg-[#ffbb00ef] text-black font-semibold rounded-xl">Register Now</button>
+                        <button className="ml-6 p-2 bg-[#f7a320] text-black font-semibold rounded-xl">Register Now</button>
                     </div>
                 </div>
             </section>
@@ -31,10 +31,10 @@ const Event = () => {
                 <div className="container mx-auto">
                     <div className="flex flex-wrap gap-4 justify-center mb-8">
                         {['All Events', 'Technical', 'Workshop', 'Social'].map((item, i) => (
-                            <button key={i} className={`px-4 py-2 rounded-lg ${i === 0 ? 'bg-[#ffbb00ef] text-black' : 'bg-gray-700 text-white'}`}>{item}</button>
+                            <button key={i} className={`px-4 py-2 rounded-lg ${i === 0 ? 'bg-[#f7a320] text-black' : 'bg-gray-700 text-white'}`}>{item}</button>
                         ))}
                         <input type="date" className="px-4 py-2 rounded-lg bg-white text-black border" />
-                        <button className="px-4 py-2 bg-[#ffbb00ef] text-black rounded-lg flex items-center gap-2">
+                        <button className="px-4 py-2 bg-[#f7a320] text-black rounded-lg flex items-center gap-2">
                             <FaCalendar /> Calendar View
                         </button>
                     </div>
@@ -53,7 +53,7 @@ const Event = () => {
                                 <h3 className="text-lg font-semibold mb-1">AI Development Workshop</h3>
                                 <p className="text-sm mb-2">Learn the fundamentals of AI development and machine learning algorithms in this hands-on workshop.</p>
                                 <div className="text-sm flex items-center gap-2 mb-4"><FaLocationDot /> Gallery</div>
-                                <button className="px-2 py-2 bg-[#ffbb00ef] text-black rounded-lg">Register Now</button>
+                                <button className="px-2 py-2 bg-[#f7a320] text-black rounded-lg">Register Now</button>
                             </div>
                         ))}
                     </div>
@@ -80,7 +80,7 @@ const Event = () => {
                                 placeholder="Enter your email"
                                 className="px-4 py-2 border border-gray-300 rounded-l-md w-64"
                             />
-                            <button className="bg-[#ffbb00ef] px-4 py-2 rounded-r-md text-black font-semibold">
+                            <button className="bg-[#f7a320] px-4 py-2 rounded-r-md text-black font-semibold">
                                 Subscribe
                             </button>
                         </div>

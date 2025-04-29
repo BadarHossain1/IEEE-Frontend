@@ -1,6 +1,6 @@
 import React from 'react';
 import achievementImg from '../../public/img/achivement.jpg';
-import certificate from '../../public/img/certificate.png'; 
+import certificate from '../../public/img/certificate.png';
 
 const Achievement = () => {
     return (
@@ -13,7 +13,7 @@ const Achievement = () => {
                 {/* Blurred Background Layer */}
                 <div className="absolute inset-0 bg-cover bg-center filter blur-xs" style={{ backgroundImage: `url(${achievementImg})` }} />
 
-                
+
 
                 {/* Text Content */}
                 <div className="relative z-20 text-center px-4">
@@ -35,7 +35,7 @@ const Achievement = () => {
                         { count: '75+', label: 'Projects Completed' },
                     ].map((item, idx) => (
                         <div key={idx} className="bg-white p-6 rounded shadow hover:shadow-lg transition">
-                            <h2 className="text-3xl font-extrabold text-[#ffbb00ef]">{item.count}</h2>
+                            <h2 className="text-3xl font-extrabold text-[#f7a320]">{item.count}</h2>
                             <p className="mt-2">{item.label}</p>
                         </div>
                     ))}
@@ -59,10 +59,10 @@ const Achievement = () => {
             {/* Timeline */}
             <section className="py-16 bg-gray-50">
                 <h1 className="text-3xl font-bold text-center mb-10">Achievement Timeline</h1>
-                <div className="max-w-4xl mx-auto border-l-4 border-[#ffbb00ef] relative space-y-12">
+                <div className="max-w-4xl mx-auto border-l-4 border-[#f7a320] relative space-y-12">
                     {[2022, 2023, 2024].map((year, index) => (
                         <div key={index} className="pl-6 relative">
-                            <div className="w-4 h-4 bg-[#ffbb00ef] rounded-full absolute -left-2 top-1.5"></div>
+                            <div className="w-4 h-4 bg-[#f7a320] rounded-full absolute -left-2 top-1.5"></div>
                             <h2 className="text-2xl font-bold">{year}</h2>
                             <div className="mt-2">
                                 <h4 className="font-semibold">Community Impact Award</h4>

@@ -5,7 +5,7 @@ const Megazine = () => {
     <section className="py-10 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-10">
-          <h1 className="text-3xl font-bold text-yellow-500">IEEE LU SB Magazines</h1>
+          <h1 className="text-3xl font-bold text-[#f7a320]">IEEE LU SB Magazines</h1>
           <p className="mt-4 mx-auto max-w-2xl text-gray-600">
             Discover our collection of technical magazines featuring cutting-edge research, student achievements,
             and innovative ideas from the IEEE LU Student Branch community.
@@ -40,7 +40,7 @@ const Megazine = () => {
             <p className="px-5 mt-2 text-sm text-gray-600">
               Exploring the latest advancements in technology and their impact on society.
             </p>
-            <a href="#" className="block px-5 mt-4 text-yellow-500 hover:underline">Read More</a>
+            <a href="#" className="block px-5 mt-4 text-[#f7a320] hover:underline">Read More</a>
           </div>
 
           {/* Magazine 2 */}
@@ -53,7 +53,7 @@ const Megazine = () => {
             <p className="px-5 mt-2 text-sm text-gray-600">
               Showcasing student research projects and technical innovations.
             </p>
-            <a href="#" className="block px-5 mt-4 text-yellow-500 hover:underline">Read More</a>
+            <a href="#" className="block px-5 mt-4 text-[#f7a320] hover:underline">Read More</a>
           </div>
 
           {/* Magazine 3 */}
@@ -66,7 +66,7 @@ const Megazine = () => {
             <p className="px-5 mt-2 text-sm text-gray-600">
               Annual review of technological achievements and student success stories.
             </p>
-            <a href="#" className="block px-5 mt-4 py-4 text-yellow-500 hover:underline">Read More</a>
+            <a href="#" className="block px-5 mt-4 py-4 text-[#f7a320] hover:underline">Read More</a>
           </div>
         </div>
       </div>

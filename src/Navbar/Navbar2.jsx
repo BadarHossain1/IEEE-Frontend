@@ -11,7 +11,7 @@ import {
 import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
-    
+
     const [activeDropdown, setActiveDropdown] = useState(null);
     const [teamOpen, setTeamOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -43,7 +43,7 @@ const Navbar2 = () => {
     };
 
     return (
-        <nav className="bg-[#ffbb00ef] shadow-md  w-full  font-['Roboto']" ref={navRef}>
+        <nav className="bg-[#f7a320] shadow-md  w-full  font-['Roboto']" ref={navRef}>
             {/* Top Section */}
 
 
@@ -68,9 +68,9 @@ const Navbar2 = () => {
                         {activeDropdown === 'activities' && (
                             <div className="absolute top-full left-0 mt-2 w-48 bg-black text-white rounded shadow-lg z-20">
                                 <ul>
-                                    <li><Link to={"/event"} className="block px-4 py-2 hover:bg-yellow-500">Events</Link></li>
-                                    <li><Link to={"/news"} className="block px-4 py-2 hover:bg-yellow-500">News</Link></li>
-                                    <li><Link to={"/achievement"} className="block px-4 py-2 hover:bg-yellow-500">Achievements</Link></li>
+                                    <li><Link to={"/event"} className="block px-4 py-2 hover:bg-[#f7a320]">Events</Link></li>
+                                    <li><Link to={"/news"} className="block px-4 py-2 hover:bg-[#f7a320]">News</Link></li>
+                                    <li><Link to={"/achievement"} className="block px-4 py-2 hover:bg-[#f7a320]">Achievements</Link></li>
                                 </ul>
                             </div>
                         )}
@@ -81,11 +81,11 @@ const Navbar2 = () => {
                         {activeDropdown === 'members' && (
                             <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20">
                                 <ul>
-                                    <li><Link to={"/panel"} className="block px-4 py-2 hover:bg-yellow-500">Panels</Link></li>
-                                    <li><Link to={"/volunteers"} className="block px-4 py-2 hover:bg-yellow-500">Volunteers</Link></li>
+                                    <li><Link to={"/panel"} className="block px-4 py-2 hover:bg-[#f7a320]">Panels</Link></li>
+                                    <li><Link to={"/volunteers"} className="block px-4 py-2 hover:bg-[#f7a320]">Volunteers</Link></li>
                                     <li className="relative">
                                         <div
-                                            className="flex justify-between items-center px-4 py-2 cursor-pointer hover:bg-yellow-500"
+                                            className="flex justify-between items-center px-4 py-2 cursor-pointer hover:bg-[#f7a320]"
                                             onClick={handleTeamToggle}
                                         >
                                             <span>Team</span>
@@ -108,7 +108,7 @@ const Navbar2 = () => {
                                                         "Video Content Executive",
                                                     ].map((item) => (
                                                         <li key={item}>
-                                                            <a href="#" className="block px-4 py-2 hover:bg-yellow-500">
+                                                            <a href="#" className="block px-4 py-2 hover:bg-[#f7a320]">
                                                                 {item}
                                                             </a>
                                                         </li>
@@ -127,11 +127,11 @@ const Navbar2 = () => {
                         {activeDropdown === 'about' && (
                             <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20">
                                 <ul>
-                                    <li><a href="#" className="block px-4 py-2 hover:bg-yellow-500">IEEE</a></li>
-                                    <li><a href="#" className="block px-4 py-2 hover:bg-yellow-500">IEEE Region 10</a></li>
-                                    <li><a href="#" className="block px-4 py-2 hover:bg-yellow-500">IEEE Bangladesh Section</a></li>
-                                    <li><a href="#" className="block px-4 py-2 hover:bg-yellow-500">IEEE LU Student Branch</a></li>
-                                    <li><Link to={"/faq"} className="block px-4 py-2 hover:bg-yellow-500">FAQ</Link></li>
+                                    <li><a href="#" className="block px-4 py-2 hover:bg-[#f7a320]">IEEE</a></li>
+                                    <li><a href="#" className="block px-4 py-2 hover:bg-[#f7a320]">IEEE Region 10</a></li>
+                                    <li><a href="#" className="block px-4 py-2 hover:bg-[#f7a320]">IEEE Bangladesh Section</a></li>
+                                    <li><a href="#" className="block px-4 py-2 hover:bg-[#f7a320]">IEEE LU Student Branch</a></li>
+                                    <li><Link to={"/faq"} className="block px-4 py-2 hover:bg-[#f7a320]">FAQ</Link></li>
                                 </ul>
                             </div>
                         )}
@@ -142,11 +142,11 @@ const Navbar2 = () => {
                         {activeDropdown === 'publications' && (
                             <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20">
                                 <ul>
-                                    <li><Link to={"/blog"} className="block px-4 py-2 hover:bg-yellow-500">Blogs</Link></li>
-                                    <li><Link to={"/researchPapers"} className="block px-4 py-2 hover:bg-yellow-500">Research Papers</Link></li>
-                                    <li><Link to={"/megazine"} className="block px-4 py-2 hover:bg-yellow-500">Magazines</Link></li>
-                                    <li><Link to={"/gallery"} className="block px-4 py-2 hover:bg-yellow-500">Gallery</Link></li>
-                                    <li><Link to={"/toolkit"} className="block px-4 py-2 hover:bg-yellow-500">Toolkit</Link></li>
+                                    <li><Link to={"/blog"} className="block px-4 py-2 hover:bg-[#f7a320]">Blogs</Link></li>
+                                    <li><Link to={"/researchPapers"} className="block px-4 py-2 hover:bg-[#f7a320]">Research Papers</Link></li>
+                                    <li><Link to={"/megazine"} className="block px-4 py-2 hover:bg-[#f7a320]">Magazines</Link></li>
+                                    <li><Link to={"/gallery"} className="block px-4 py-2 hover:bg-[#f7a320]">Gallery</Link></li>
+                                    <li><Link to={"/toolkit"} className="block px-4 py-2 hover:bg-[#f7a320]">Toolkit</Link></li>
                                 </ul>
                             </div>
                         )}
@@ -159,9 +159,9 @@ const Navbar2 = () => {
                         {activeDropdown === 'getinvolved' && (
                             <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20">
                                 <ul>
-                                    <li><Link to={"/joinIEEE"} className="block px-4 py-2 hover:bg-yellow-500">Join IEEE LU SB</Link></li>
-                                    <li><Link to={"/blogWriting"} className="block px-4 py-2 hover:bg-yellow-500">Write A Blog</Link></li>
-                                    <li><Link to={"/addResearch"} className="block px-4 py-2 hover:bg-yellow-500">Add Research Paper</Link></li>
+                                    <li><Link to={"/joinIEEE"} className="block px-4 py-2 hover:bg-[#f7a320]">Join IEEE LU SB</Link></li>
+                                    <li><Link to={"/blogWriting"} className="block px-4 py-2 hover:bg-[#f7a320]">Write A Blog</Link></li>
+                                    <li><Link to={"/addResearch"} className="block px-4 py-2 hover:bg-[#f7a320]">Add Research Paper</Link></li>
                                 </ul>
                             </div>
                         )}
@@ -189,7 +189,7 @@ const Navbar2 = () => {
             </div>
 
             {/* Mobile navigation */}
-            <div className="md:hidden flex justify-between px-6 py-4 bg-[#ffbb00ef]">
+            <div className="md:hidden flex justify-between px-6 py-4 bg-[#f7a320]">
                 <div className="flex items-center gap-4">
                     <img src="../../public/img/ieee_logo.png" alt="IEEE Logo" className="w-32" />
                 </div>

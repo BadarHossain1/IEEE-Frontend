@@ -4,7 +4,7 @@ const JoinIEEE = () => {
     return (
         <section className="bg-yellow-100 py-12 flex justify-center">
             <div className="bg-white p-8 w-full max-w-3xl shadow-lg rounded">
-                <h2 className="text-center text-3xl font-bold text-yellow-500 mb-6">IEEE Membership Registration</h2>
+                <h2 className="text-center text-3xl font-bold text-[#f7a320] mb-6">IEEE Membership Registration</h2>
 
                 <form className="space-y-6">
                     <div>
@@ -78,7 +78,7 @@ const JoinIEEE = () => {
                         </div>
                     </div>
 
-                    <button type="submit" className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded">
+                    <button type="submit" className="w-full bg-[#f7a320] hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded">
                         Submit Application
                     </button>
                 </form>

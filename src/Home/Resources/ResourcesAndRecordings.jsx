@@ -5,21 +5,21 @@ const ResourcesAndRecordings = () => {
 
     const resources = [
         {
-            icon: <FaBookOpen className="text-yellow-500 text-3xl" />,
+            icon: <FaBookOpen className="text-[#f7a320] text-3xl" />,
             title: 'Technical Papers',
             description: 'Access our collection of research papers and technical publications.',
             linkText: 'Browse Papers',
             linkHref: '#',
         },
         {
-            icon: <FaVideo className="text-yellow-500 text-3xl" />,
+            icon: <FaVideo className="text-[#f7a320] text-3xl" />,
             title: 'Workshop Recordings',
             description: 'Watch recordings of our past workshops and technical sessions.',
             linkText: 'View Videos',
             linkHref: '#',
         },
         {
-            icon: <FaFile className="text-yellow-500 text-3xl" />,
+            icon: <FaFile className="text-[#f7a320] text-3xl" />,
             title: 'Presentation Slides',
             description: 'Download presentation materials from our events and workshops.',
             linkText: 'Download Slides',
@@ -37,7 +37,7 @@ const ResourcesAndRecordings = () => {
                         <p className="text-sm text-gray-600 mb-4">{item.description}</p>
                         <a
                             href={item.linkHref}
-                            className="inline-block px-3 py-2 text-sm border border-yellow-500 text-yellow-500 rounded hover:bg-yellow-500 hover:text-white transition"
+                            className="inline-block px-3 py-2 text-sm border border-[#f7a320] text-[#f7a320] rounded hover:bg-[#f7a320] hover:text-white transition"
                         >
                             {item.linkText}
                         </a>

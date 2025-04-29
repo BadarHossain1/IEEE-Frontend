@@ -39,7 +39,7 @@ const Toolkit = () => {
                         return (
                             <div key={i} className="text-center bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
                                 <img src={img} alt={titles[i]} className="w-full h-48 object-cover rounded-md mb-4" />
-                                <h3 className="text-xl font-semibold text-[#ffbb00ef] mb-2">{titles[i]}</h3>
+                                <h3 className="text-xl font-semibold text-[#f7a320] mb-2">{titles[i]}</h3>
                                 <p className="text-gray-700">{descriptions[i]}</p>
                             </div>
                         );

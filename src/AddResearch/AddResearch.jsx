@@ -66,7 +66,7 @@ const AddResearch = () => {
                         <label htmlFor="file_upload_1" className="cursor-pointer ">
                             <div className='mb-2 border-2 border-dashed border-gray-300 rounded-lg p-5 flex flex-col items-center justify-center'>
                                 <div className="text-2xl  text-blue-500 flex justify-center"><FaCloudArrowUp /></div>
-                                <p><span className="text-yellow-500 font-bold">Upload a file</span> or drag and drop</p>
+                                <p><span className="text-[#f7a320] font-bold">Upload a file</span> or drag and drop</p>
                                 <p className="text-sm text-gray-400">PNG, JPG, GIF up to 10MB</p>
                                 <input type="file" id="file_upload_1" hidden />
                             </div>
@@ -77,7 +77,7 @@ const AddResearch = () => {
                             <div className='mb-2 border-2 border-dashed border-gray-300 rounded-lg p-5 flex flex-col items-center justify-center'>
 
                                 <div className="text-2xl mb-2 text-blue-500 flex justify-center"><FaCloudArrowUp /></div>
-                                <p>Upload a <span className="text-yellow-500 font-bold">file</span> or drag and drop</p>
+                                <p>Upload a <span className="text-[#f7a320] font-bold">file</span> or drag and drop</p>
                                 <p className="text-sm text-gray-400">PNG, JPG, GIF up to 10MB</p>
                                 <input type="file" id="file_upload_2" hidden />
                             </div>
