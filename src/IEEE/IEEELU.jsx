@@ -79,7 +79,7 @@ const IEEELU = () => {
 
 
             <div className="w-[85%] mx-auto pt-20  px-6 md:px-20">
-                <div className="bg-[#012B52] flex flex-col md:flex-row items-center gap-10">
+                <div className="bg-[#f7a320] flex flex-col md:flex-row items-center gap-10">
                     {/* Text Section */}
                     <div className="md:w-1/2  text-white  p-8">
                         <h2 className="text-3xl font-bold mb-2">Mission</h2>
@@ -100,7 +100,7 @@ const IEEELU = () => {
                 </div>
             </div>
             <div className="w-[85%] mx-auto pt-5 pb-10 px-6 md:px-20">
-                <div className="bg-[#012B52] flex flex-col-reverse md:flex-row-reverse items-center gap-10">
+                <div className="bg-[#f7a320]  flex flex-col-reverse md:flex-row-reverse items-center gap-10">
                     {/* Text Section */}
                     <div className="md:w-1/2  text-white  p-8">
                         <h2 className="text-3xl font-bold mb-2">Vision</h2>
@@ -135,7 +135,7 @@ const IEEELU = () => {
                         </p>
 
                         {/* Button */}
-                        <button className="mt-4 bg-[#012B52] hover:bg-[#011f3a] text-white px-6 py-3 rounded-md font-semibold flex items-center gap-2 shadow">
+                        <button className="mt-4 bg-[#f7a320]  hover:bg-black text-white px-6 py-3 rounded-md font-semibold flex items-center gap-2 shadow">
                             <ArrowRight className="w-4 h-4" />
                             All Events
                         </button>
@@ -147,7 +147,7 @@ const IEEELU = () => {
                         <div className="w-20 h-1 bg-yellow-400 mb-4"></div>
                         <div class="">
                             <div class="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-                                <div class="bg-gradient-to-r from-blue-700 to-cyan-500 text-white text-center py-4 text-xl font-semibold">
+                                <div class="bg-[#f7a320]  text-white text-center py-4 text-xl font-semibold">
                                     April 2025
                                 </div>
                                 <div class="grid grid-cols-7 text-center text-gray-700 font-medium bg-gray-100">

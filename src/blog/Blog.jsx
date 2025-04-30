@@ -5,7 +5,7 @@ const Blog = () => {
         <>
             {/* Blog Title */}
             <section className="text-center py-8">
-                <h1 className="text-4xl text-[#fec31e]  font-bold">IEEE CS LU SB Blogs</h1>
+                <h1 className="text-4xl text-[#f7a320]   font-bold">IEEE CS LU SB Blogs</h1>
                 <p className="text-gray-600 mt-2 mx-2">Stay updated with the latest news, events and technical articles from our student branch</p>
             </section>
 
@@ -49,7 +49,7 @@ const Blog = () => {
                             </div>
                             <h3 className="px-5 font-semibold">Robotics Workshop Highlights</h3>
                             <p className="px-5 text-sm text-gray-700">A detailed recap of our recent robotics workshop featuring hands-on experience with cutting-edge technology and expert insights...</p>
-                            <a href="#" className="text-[#fec31e]  px-5 hover:underline inline-block mt-2">Read More</a>
+                            <a href="#" className="text-[#f7a320]   px-5 hover:underline inline-block mt-2">Read More</a>
                         </div>
 
                         {/* Blog 2 */}
@@ -61,7 +61,7 @@ const Blog = () => {
                             </div>
                             <h3 className="px-5 font-semibold">Latest Advancements in Artificial Intelligence</h3>
                             <p className="px-5 text-sm text-gray-700">Exploring the cutting-edge developments in AI and their potential impact on various industries. A comprehensive look at machine learning algorithms...</p>
-                            <a href="#" className="text-[#fec31e]  px-5 hover:underline inline-block mt-2">Read More</a>
+                            <a href="#" className="text-[#f7a320]   px-5 hover:underline inline-block mt-2">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const Blog = () => {
                     {/* Tags */}
                     <div className="shadow-md rounded-lg p-4 flex flex-wrap gap-3">
                         {["AI", "Robotics", "IoT", "Machine Learning", "Workshops"].map((tag, idx) => (
-                            <span key={idx} className="hover:text-white text-black    px-3 py-1 rounded-full text-sm cursor-pointer hover:bg-[#fec31e]   ">
+                            <span key={idx} className="hover:text-white text-black    px-3 py-1 rounded-full text-sm cursor-pointer hover:bg-[#f7a320]    ">
                                 {tag}
                             </span>
                         ))}

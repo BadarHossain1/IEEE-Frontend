@@ -5,7 +5,7 @@ const AddResearch = () => {
     return (
         <section className="bg-yellow-100 flex flex-col items-center">
             <div className="w-[90%] lg:w-[60%] mx-auto  text-center">
-                <h2 className="text-yellow-400 text-4xl font-bold leading-10 py-5">
+                <h2 className="text-[#f7a320]  text-4xl font-bold leading-10 py-5">
                     Add Research
                 </h2>
                 <p className="text-gray-600 text-lg leading-7 mb-12">

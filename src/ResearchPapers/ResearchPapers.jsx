@@ -44,7 +44,7 @@ const ResearchPapers = () => {
               <div className="border-b pb-6">
                 <div className="flex justify-between items-center">
                   <h2 className="text-2xl font-semibold">Deep Learning Approaches in Medical Image Analysis</h2>
-                  <button className="bg-[#f7a320] text-white px-4 py-2 rounded-md">Download</button>
+                  <button className="bg-[#f7a320]  text-white px-4 py-2 rounded-md">Download</button>
                 </div>
                 <div className="flex space-x-4 mt-2">
                   <p><i className="fa-solid fa-calendar-days"></i> Date</p>
@@ -59,7 +59,7 @@ const ResearchPapers = () => {
               <div className="border-b pb-6">
                 <div className="flex justify-between items-center">
                   <h2 className="text-2xl font-semibold">5G Network Optimization Using Machine Learning</h2>
-                  <button className="bg-[#f7a320] text-white px-4 py-2 rounded-md">Download</button>
+                  <button className="bg-[#f7a320]  text-white px-4 py-2 rounded-md">Download</button>
                 </div>
                 <div className="flex space-x-4 mt-2">
                   <p><i className="fa-solid fa-calendar-days"></i> Date</p>
