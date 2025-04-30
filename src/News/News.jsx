@@ -21,7 +21,7 @@ const News = () => {
             {/* News Buttons */}
             <div className="flex flex-wrap gap-3 p-10">
                 {["All News", "Technology", "Research", "Events", "Publications", "Standards"].map((item, i) => (
-                    <button key={i} className="px-4 py-2 border border-blue-600 text-black bg-white rounded-lg hover:bg-blue-600 hover:text-white transition">
+                    <button key={i} className="px-4 py-2 border border-[#f7a320] text-black bg-white rounded-lg hover:bg-[#f7a320] hover:text-white transition">
                         {item}
                     </button>
                 ))}
@@ -51,7 +51,7 @@ const News = () => {
                             </div>
                             <h3 className="text-xl font-semibold px-4">{news.title}</h3>
                             <p className="px-4 py-2 text-gray-700">{news.desc}</p>
-                            <a href="#" className="text-blue-600 px-4 hover:underline">Read More</a>
+                            <a href="#" className="text-[#f7a320] px-4 hover:underline">Read More</a>
                         </div>
                     ))}
                 </div>
@@ -65,7 +65,7 @@ const News = () => {
                             { title: "The Future of 5G Technology", date: "March 10, 2024" }
                         ].map((topic, i) => (
                             <div key={i} className="flex justify-between items-center py-2 border-b">
-                                <h2 className="text-blue-600 text-xl">{`0${i + 1}`}</h2>
+                                <h2 className="text-[#f7a320] text-xl">{`0${i + 1}`}</h2>
                                 <div className="text-sm">
                                     <h5 className="font-semibold">{topic.title}</h5>
                                     <p className="text-gray-500">{topic.date}</p>
@@ -82,7 +82,7 @@ const News = () => {
                             placeholder="Enter Your Email"
                             className="w-full p-2 border rounded-lg mb-2"
                         />
-                        <button className="w-full p-2 bg-blue-600 text-white rounded-lg hover:bg-red-600 transition">
+                        <button className="w-full p-2 bg-[#f7a320] text-white rounded-lg hover:bg-red-600 transition">
                             Subscribe for Updates
                         </button>
                     </div>
@@ -92,10 +92,10 @@ const News = () => {
                         <h3 className="text-xl font-semibold mb-2">Follow IEEE</h3>
                         <div className="flex gap-4 text-2xl text-black">
                             <a href="https://www.facebook.com/ieeecslu" target="_blank" rel="noreferrer">
-                                <FaFacebook className="hover:text-blue-600" />
+                                <FaFacebook className="hover:text-[#f7a320]" />
                             </a>
                             <a href="https://www.linkedin.com/company/ieeecslu/" target="_blank" rel="noreferrer">
-                                <FaLinkedin className="hover:text-blue-600" />
+                                <FaLinkedin className="hover:text-[#f7a320]" />
                             </a>
                         </div>
                     </div>

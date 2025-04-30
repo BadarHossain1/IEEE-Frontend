@@ -16,7 +16,7 @@ const IEEEBangladesh = () => {
                     {/* Left side - IEEE Logo */}
                     <div className="flex justify-center">
                         <img
-                            src="/mnt/data/b32c140d-d627-4109-9b7d-a8307063c642.png" // <-- Update this path
+                            src="https://i.ibb.co.com/KxYhtFbD/IEEE-LOGO.gif" // <-- Update this path
                             alt="IEEE Logo"
                             className="w-60 h-60 object-contain"
                         />
@@ -25,7 +25,7 @@ const IEEEBangladesh = () => {
                     {/* Right side - About Text */}
                     <div className=" lg:ml-[40px]">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                            ABOUT <span className="block w-26 h-1 bg-yellow-400 mt-2"></span>
+                            ABOUT <span className="block w-16 h-1 bg-[#f7a320]  mt-2"></span>
                         </h2>
                         <p className="text-gray-700 max-w-xl leading-relaxed text-justify">
                             Institute of Electrical and Electronics Engineers (IEEE) Bangladesh Section was formed in November 1993 with just 54 members. But now the Institute of Electrical and Electronics Engineers (IEEE) Bangladesh Section has gained a huge community with a lot of members from different countries. Recently IEEE Bangladesh Community is holding the position right after India, USA, China and Canada. Bangladesh Section is maintaining the 5th ranking among 342 sections all over 160 countries in the world.
@@ -33,7 +33,7 @@ const IEEEBangladesh = () => {
                         </p>
                         <div className="flex gap-4 mt-6">
 
-                            <button className="border-2 border-yellow-400 hover:bg-yellow-400 hover:text-white text-blue-900 font-semibold py-2 px-6 rounded">
+                            <button className="border-2 border- [#f7a320]  hover:bg-[#f7a320]  hover:text-white text-[#f7a320]  font-semibold py-2 px-6 rounded">
                                 IEEEBD.net
                             </button>
                         </div>
@@ -49,23 +49,23 @@ const IEEEBangladesh = () => {
                     <div className="max-w-xl">
                         <h2 className="text-3xl font-bold text-black mb-4">
                             Members and volunteers
-                            <span className="block w-16 h-1 bg-yellow-400 mt-2"></span>
+                            <span className="block w-16 h-1 bg-[#f7a320]  mt-2"></span>
                         </h2>
                         <p className="text-gray-700 leading-relaxed text-justify">
                             Members of the Institute of Electrical and Electronics Engineers (IEEE) Bangladesh Section are very involved, and they are perfecting their initiative work and forming connections with electrical engineering sides all over the world. Prof. Celia Shahnaz, Chair of the Institute of Electrical and Electronics Engineers (IEEE) Bangladesh Section, organizes year-round productive student events and congratulates all student participants. Institute of Electrical and Electronics Engineers (IEEE) Bangladesh Section is receiving overwhelming response from Institute of Electrical and Electronics Engineers (IEEE) members and volunteers all over the world.
                         </p>
 
                         {/* Links */}
-                        <div className="mt-6 flex flex-col gap-2 text-blue-700">
+                        <div className="mt-6 flex flex-col gap-2 text-white  ">
                             <p className="text-gray-700 leading-relaxed text-justify">Please go through this links: </p>
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> WEB TEAM
+                                  <ExternalLink size={18} />WEB TEAM
                             </a>
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> Vice Chair Technical
+                                  <ExternalLink size={18} />Vice Chair Technical
                             </a>
                             <a href="#" className="flex items-center gap-2 hover:underline">
-                                <span>🔗</span> Secretary Candidates
+                                  <ExternalLink size={18} />Secretary Candidates
                             </a>
 
                         </div>
@@ -83,12 +83,12 @@ const IEEEBangladesh = () => {
             </div>
 
 
-            <div className="bg-[#083B64] py-16 px-6 md:px-20">
+            <div className="bg-[#f7a320]  w-[85%] mx-auto py-16 px-6 md:px-20">
                 <div className="w-[85%] mx-auto  grid md:grid-cols-2 gap-10 justify-between  ">
 
 
                     <div className="border-r border-white pr-8">
-                        <h2 className="text-3xl font-bold text-white mb-4">
+                        <h2 className="text-3xl font-bold text-black mb-4">
                             Benefits
                             <div className="w-16 h-1 bg-white mt-2"></div>
                         </h2>
@@ -101,14 +101,14 @@ const IEEEBangladesh = () => {
 
                     {/* Collaboration */}
                     <div className="pl-8">
-                        <h2 className="text-3xl font-bold text-white mb-4">
+                        <h2 className="text-3xl font-bold text-black mb-4">
                             Student Branches
                             <div className="w-16 h-1 bg-white mt-2"></div>
                         </h2>
                         <p className="text-white text-justify leading-relaxed">
                             IEEE Bangladesh Student Branches are taking the unprecedented steps day by day and going ahead as a big ripple in the whole world. In Bangladesh there are 1500+ students including graduate and non-graduate students. Here is the student branch details and the list of student branches link below:
                         </p>
-                        <div className="mt-6 flex flex-col gap-2 text-yellow-400">
+                        <div className="mt-6 flex flex-col gap-2 text-white ">
                             <a href="#" className="flex items-center gap-2 hover:underline">
                                 <ExternalLink size={18} /> IEEE BDS
                             </a>
@@ -121,14 +121,14 @@ const IEEEBangladesh = () => {
 
                 </div>
             </div>
-            <div className="bg-[#083B64] py-16 px-6 md:px-20">
+            <div className="bg-[#f7a320]  w-[85%] mx-auto py-16 px-6 md:px-20">
                 <div className=" w-[85%] mx-auto grid md:grid-cols-2 gap-10 justify-between  ">
 
 
 
 
                     <div className="border-r border-white pr-8">
-                        <h2 className="text-3xl font-bold text-white mb-4">
+                        <h2 className="text-3xl font-bold text-black mb-4">
                             Affinity Groups
                             <div className="w-16 h-1 bg-white mt-2"></div>
                         </h2>
@@ -137,7 +137,7 @@ const IEEEBangladesh = () => {
 
                         </p>
 
-                        <div className="mt-6 flex flex-col gap-2 text-yellow-400">
+                        <div className="mt-6 flex flex-col gap-2 text-white ">
                             <a href="#" className="flex items-center gap-2 hover:underline">
                                 <ExternalLink size={18} /> Visit Now
                             </a>
@@ -147,7 +147,7 @@ const IEEEBangladesh = () => {
                     </div>
 
                     <div className=" pl-8">
-                        <h2 className="text-3xl font-bold text-white mb-4">
+                        <h2 className="text-3xl font-bold text-black mb-4">
                             Community and Society
                             <div className="w-16 h-1 bg-white mt-2"></div>
                         </h2>
@@ -156,7 +156,7 @@ const IEEEBangladesh = () => {
                         </p>
 
                         {/* Links */}
-                        <div className="mt-6 flex flex-col gap-2 text-yellow-400">
+                        <div className="mt-6 flex flex-col gap-2 text-white ">
                             <a href="#" className="flex items-center gap-2 hover:underline">
                                 <ExternalLink size={18} /> Community and society
                             </a>
@@ -175,10 +175,10 @@ const IEEEBangladesh = () => {
             <section className=" pt-20 pb-10 px-6 md:px-20">
                 <div className="w-[85%] mx-auto  ">
                     {/* Title */}
-                    <h2 className="text-3xl font-bold text-blue-900 mb-4">
+                    <h2 className="text-3xl font-bold text-[#f7a320]  mb-4">
                         Achievements
                     </h2>
-                    <div className="w-16 h-1 bg-yellow-400 mb-6"></div>
+                    <div className="block w-16 h-1 bg-[#f7a320]    mb-6"></div>
 
                     {/* Description */}
                     <p className="text-gray-700 text-lg leading-relaxed mb-10">
@@ -222,16 +222,16 @@ const IEEEBangladesh = () => {
 
             <div className=" w-[80%]  pt-20 mx-auto  flex flex-col items-center justify-center">
                 <div className=''>
-                    <h2 className="text-2xl   font-bold text-blue-900 mb-2">
+                    <h2 className="text-2xl   font-bold text-[#f7a320]  mb-2">
                         Contact Bangladesh Section
                     </h2>
-                    <div className="w-16 h-1 bg-yellow-400 mb-6"></div>
+                    <div className="block w-16 h-1 bg-[#f7a320]    mb-6"></div>
                     <div className="space-y-4 ">
                         <div className="flex flex-col md:flex-row md:items-start">
                             <span className="font-semibold w-48">Chair:</span>
                             <p
 
-                                className="text-blue-700 hover:underline"
+                                className="text-[#f7a320]   hover:underline"
                             >
                                 Prof. Dr. Celia Shahnaz
                             </p>
@@ -241,7 +241,7 @@ const IEEEBangladesh = () => {
                             <span className="font-semibold w-48">Email:</span>
                             <p
 
-                                className="text-blue-700 hover:underline"
+                                className="text-[#f7a320]   hover:underline"
                             >
                                 celia.shahnaz@ieee.org
                             </p>

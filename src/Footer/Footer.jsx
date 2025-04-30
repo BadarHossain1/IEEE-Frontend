@@ -81,7 +81,7 @@ const Footer = () => {
                 <div className="text-sm text-gray-400">
                     <p>Last Update: 15 January, 2025</p>
                     <p>&copy; 2025 IEEE LU SB - All rights reserved</p>
-                    <p>Developed By IEEE LU SB Web Developer Team</p>
+                    <p>Developed By <Link to="/developers" className="text-[#f7a320]">IEEE LU SB Web Developer Team</Link></p>
                 </div>
             </div>
         </footer>

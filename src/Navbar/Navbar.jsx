@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Marquee from 'react-fast-marquee';
+import { FaChevronDown } from "react-icons/fa";
 
 import {
     FaCaretRight,
@@ -17,6 +18,11 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [mobileSubMenu, setMobileSubMenu] = useState(null);
     const [mobileTeamOpen, setMobileTeamOpen] = useState(false);
+    const [isActivitiesOpen, setIsActivitiesOpen] = useState(false);
+    const [isMembersOpen, setIsMembersOpen] = useState(false);
+    const [isAboutOpen, setIsAboutOpen] = useState(false);
+    const [isPublicationsOpen, setIsPublicationsOpen] = useState(false);
+    const [isGetInvolvedOpen, setIsGetInvolvedOpen] = useState(false);
     const navRef = useRef(null);
 
     useEffect(() => {
@@ -47,32 +53,33 @@ const Navbar = () => {
 
 
     return (
-        <nav className="bg-[#f7a320] shadow-md  w-full  font-['Roboto']" ref={navRef}>
-            {/* Top Section */}
+        <nav className="bg-[#f7a320] shadow-md  w-full py-4  font-['Roboto']" ref={navRef}>
 
 
 
-            {/* Marquee */}
-            {/* <div className="text-white py-2">
-                <Marquee pauseOnHover={true} gradient={false} speed={65}>
-                    <span className='text-white font-bold'>Leading University IEEE Club</span>
-                </Marquee>
-            </div> */}
 
             {/* Navigation for pc */}
-            <div className="lg:flex p-2  hidden  justify-between w-full mx-auto ">
-                <ul className="flex flex-wrap  w-[95%] mx-auto justify-between items-center  text-white font-semibold  relative">
+            <div className="lg:flex p-2  hidden  justify-center  flex-row  w-full mx-auto ">
+                <ul className="flex flex-wrap  w-[95%] mx-auto justify-center gap-x-10 items-center  text-white font-semibold  relative">
                     <div className="flex items-center gap-4">
-                        <img src="../../public/img/ieee_logo.png" alt="IEEE Logo" className=" w-60" />
+                        <img src="../../public/img/ieee_logo.png" alt="IEEE Logo" className=" w-50 mr-4" />
                     </div>
-                    <li><a href="/" className='md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black'>Home</a></li>
+                    <li><a href="/" className='md:text-xl text-2xl lg:text-[18px] '><span className='hover:text-black'>Home</span></a></li>
 
 
                     {/* Activities Dropdown */}
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Activities</button>
+                        <button onMouseEnter={() => setIsActivitiesOpen(!isActivitiesOpen)} onMouseLeave={() => setIsActivitiesOpen(!isActivitiesOpen)} className="md:text-xl text-2xl lg:text-[18px]">
+                            <div className='flex items-center gap-2'>
+                                <span className='hover:text-black '>Activities</span>
+                                <FaChevronDown
+                                    className={`transition-transform text-sm duration-300 ${isActivitiesOpen ? "rotate-180" : "rotate-0"
+                                        }`}
+                                />
+                            </div>
+                        </button>
 
-                        <div className="absolute top-full left-0 mt-2 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
+                        <div className="absolute top-full left-0 mt-8 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
                                 <li>
                                     <Link to="/event" className="block px-4 py-2 hover:bg-[#f7a320]">
@@ -98,9 +105,17 @@ const Navbar = () => {
 
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Members</button>
+                        <button onMouseEnter={() => setIsMembersOpen(!isMembersOpen)} onMouseLeave={() => setIsMembersOpen(!isMembersOpen)} className="md:text-xl text-2xl lg:text-[18px]">
+                            <div className='flex items-center gap-2'>
+                                <span className='hover:text-black '>Members</span>
+                                <FaChevronDown
+                                    className={`transition-transform text-sm duration-300 ${isMembersOpen ? "rotate-180" : "rotate-0"
+                                        }`}
+                                />
+                            </div>
+                        </button>
                         {/* Dropdown on hover */}
-                        <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
+                        <div className="absolute top-full left-0 mt-8 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
                                 <li>
                                     <Link to={"/panel"} className="block px-4 py-2 hover:bg-[#f7a320]">Panels</Link>
@@ -141,6 +156,10 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
+
+                                <li>
+                                    <Link to={"/developers"} className="block px-4 py-2 hover:bg-[#f7a320]">Developers</Link>
+                                </li>
                             </ul>
                         </div>
                     </li>
@@ -153,10 +172,18 @@ const Navbar = () => {
 
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black ">About</button>
+                        <button onMouseEnter={() => setIsAboutOpen(!isAboutOpen)} onMouseLeave={() => setIsAboutOpen(!isAboutOpen)} className="md:text-xl text-2xl lg:text-[18px]">
+                            <div className='flex items-center gap-2'>
+                                <span className='hover:text-black '>About</span>
+                                <FaChevronDown
+                                    className={`transition-transform text-sm duration-300 ${isAboutOpen ? "rotate-180" : "rotate-0"
+                                        }`}
+                                />
+                            </div>
+                        </button>
 
                         {/* Dropdown on hover */}
-                        <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
+                        <div className="absolute top-full left-0 mt-8 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
                                 <li>
                                     <Link to="/join" className="block px-4 py-2 hover:bg-[#f7a320]">
@@ -193,10 +220,17 @@ const Navbar = () => {
                     </li>
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Publications</button>
-
+                        <button onMouseEnter={() => setIsPublicationsOpen(!isPublicationsOpen)} onMouseLeave={() => setIsPublicationsOpen(!isPublicationsOpen)} className="md:text-xl text-2xl lg:text-[18px]">
+                            <div className='flex items-center gap-2'>
+                                <span className='hover:text-black '>Publications</span>
+                                <FaChevronDown
+                                    className={`transition-transform text-sm duration-300 ${isPublicationsOpen ? "rotate-180" : "rotate-0"
+                                        }`}
+                                />
+                            </div>
+                        </button>
                         {/* Dropdown on hover */}
-                        <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
+                        <div className="absolute top-full left-0 mt-8 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
                                 <li>
                                     <Link to="/blog" className="block px-4 py-2 hover:bg-[#f7a320]">
@@ -227,19 +261,23 @@ const Navbar = () => {
                         </div>
                     </li>
 
-                    <li><Link to={"/contact"} className='md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black' >Contact</Link></li>
+                    <li><Link to={"/contact"} className='md:text-xl text-2xl lg:text-[18px]' ><span className='hover:text-black'>Contact</span></Link></li>
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Get Involved</button>
+                        <button onMouseEnter={() => setIsGetInvolvedOpen(!isGetInvolvedOpen)} onMouseLeave={() => setIsGetInvolvedOpen(!isGetInvolvedOpen)} className="md:text-xl text-2xl lg:text-[18px]">
+                            <div className='flex items-center gap-2'>
+                                <span className='hover:text-black '>Get Involved</span>
+                                <FaChevronDown
+                                    className={`transition-transform text-sm duration-300 ${isGetInvolvedOpen ? "rotate-180" : "rotate-0"
+                                        }`}
+                                />
+                            </div>
+                        </button>
 
                         {/* Dropdown on hover */}
-                        <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
+                        <div className="absolute top-full left-0 mt-8 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
-                                <li>
-                                    <Link to="/joinIEEE" className="block px-4 py-2 hover:bg-[#f7a320]">
-                                        Join IEEE LU SB
-                                    </Link>
-                                </li>
+
                                 <li>
                                     <Link to="/blogWriting" className="block px-4 py-2 hover:bg-[#f7a320]">
                                         Write A Blog
@@ -262,9 +300,9 @@ const Navbar = () => {
                     <li>
                         <Link
                             to={"/signin"}
-                            className="block bg-white text-black text-xl px-4 py-1.5 rounded hover:bg-yellow-400"
+                            className="block bg-black text-white text-xl px-4 py-1.5 rounded hover:bg-[#f7a320]"
                         >
-                            <span className='text-xl'>Join Now</span>
+                            <span className='text-xl '>Join Now</span>
                         </Link>
                     </li>
                 </ul>

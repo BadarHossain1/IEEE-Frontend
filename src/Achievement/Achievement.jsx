@@ -18,7 +18,7 @@ const Achievement = () => {
                 {/* Text Content */}
                 <div className="relative z-20 text-center px-4">
                     <h2 className="text-3xl md:text-5xl font-bold">
-                        Our <span className="text-yellow-400">Achievements</span>
+                        Our <span className="text-[#f7a320]">Achievements</span>
                     </h2>
                     <p className="mt-2 text-xl">Celebrating excellence and innovation in IEEE LU Student Branch</p>
                 </div>

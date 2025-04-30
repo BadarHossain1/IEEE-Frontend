@@ -3,6 +3,7 @@ import React from 'react';
 import rn1 from '../../../public/img/rn1.jpg';
 import rn2 from '../../../public/img/rn2.jpg';
 import rn3 from '../../../public/img/rn3.jpg';
+import { Link } from 'react-router-dom';
 
 
 const RecentNews = () => {
@@ -30,9 +31,9 @@ const RecentNews = () => {
         <section className="w-[80%] mx-auto my-24 font-sans text-gray-800">
         <div className="flex justify-between items-center mb-5">
           <h3 className="text-3xl font-bold text-gray-900">Recent News</h3>
-          <a href="#" className="text-orange-500 font-bold hover:text-orange-600 transition-colors duration-300">
+          <Link to="/news" className="text-[#f7a320] font-bold hover:text-orange-600 transition-colors duration-300">
             Read All News
-          </a>
+          </Link>
         </div>
   
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">

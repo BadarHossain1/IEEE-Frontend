@@ -148,7 +148,7 @@ const Developers = () => {
       {/* Guest developers Cards */}
       <div className="text-center mt-6   ">
     
-        <p className="text-3xl font-extrabold text-[#ea8800] mt-6   underline">Guest Developers</p>
+        <p className="text-3xl font-extrabold text-[#ea8800] mt-6   underline">Co-Developers</p>
        
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" >

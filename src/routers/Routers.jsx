@@ -19,11 +19,11 @@ const Routers = () => {
                 {/* <Navbar2></Navbar2> */}
                 
             </div>
-            <div className='mb-[200px]'>
+            <div className='mb-[50px]'>
                 <Outlet></Outlet>
             </div>
 
-            <div className='mt-[200px]'>
+            <div className='mt-[50px]'>
                 <Footer></Footer>
             </div>
 
