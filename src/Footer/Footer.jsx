@@ -56,9 +56,9 @@ const Footer = () => {
             <div className="flex flex-wrap justify-between items-start gap-6 px-10 py-12 border-t border-gray-700 mt-[-2rem]">
                 <div>
                     <h2 className="text-white text-lg mb-2">Follow Us</h2>
-                    <div className="flex gap-4 text-blue-500 text-xl">
-                        <a href="#"><i className="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i className="fa-brands fa-facebook"></i></a>
+                    <div className="flex gap-4 text-[#f7a320] text-xl">
+                        <a href="https://www.linkedin.com/company/ieeecslu/posts/?feedView=all"><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/ieeecslu"><i className="fa-brands fa-facebook"></i></a>
                     </div>
                 </div>
 

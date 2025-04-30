@@ -8,9 +8,13 @@ const JoinUs = () => {
 
                 <form className="space-y-6">
                     <div>
-                        <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
+                        <h3 className="text-xl font-semibold text-gray-800 mb-2">Membership Type</h3>
                         <label className="block text-sm font-medium text-gray-700 mt-4">Global or Local</label>
-                        <select type="text" required className="w-full mt-1 p-2 border rounded" />
+                        <select type="text"  required className="w-full mt-1 p-2 border rounded z-5 mb-2">
+                            <option value="option1">Global</option>
+                            <option value="option2">Local</option>
+                           
+                        </select>
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
 
                         <label className="block text-sm font-medium text-gray-700 mt-4">Full Name</label>

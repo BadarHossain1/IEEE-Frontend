@@ -65,12 +65,12 @@ const Navbar = () => {
                     <div className="flex items-center gap-4">
                         <img src="../../public/img/ieee_logo.png" alt="IEEE Logo" className=" w-60" />
                     </div>
-                    <li><a href="/" className='md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black'>Home</a></li>
+                    <li><a href="/" className='md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black'>Home</a></li>
 
 
                     {/* Activities Dropdown */}
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black">Activities</button>
+                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Activities</button>
 
                         <div className="absolute top-full left-0 mt-2 w-64  bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
@@ -98,7 +98,7 @@ const Navbar = () => {
 
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black">Members</button>
+                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Members</button>
                         {/* Dropdown on hover */}
                         <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
                             <ul>
@@ -153,7 +153,7 @@ const Navbar = () => {
 
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black ">About</button>
+                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black ">About</button>
 
                         {/* Dropdown on hover */}
                         <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
@@ -193,7 +193,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black">Publications</button>
+                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Publications</button>
 
                         {/* Dropdown on hover */}
                         <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
@@ -227,10 +227,10 @@ const Navbar = () => {
                         </div>
                     </li>
 
-                    <li><Link to={"/contact"} className='md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black' >Contact</Link></li>
+                    <li><Link to={"/contact"} className='md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black' >Contact</Link></li>
 
                     <li className="relative group">
-                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-sm hover:border-black">Get Involved</button>
+                        <button className="md:text-xl text-2xl lg:text-2xl hover:border-b-2 hover:rounded-xl hover:p-3 hover:shadow-black hover:shadow-lg shadow- hover:border-black">Get Involved</button>
 
                         {/* Dropdown on hover */}
                         <div className="absolute top-full left-0 mt-2 w-64 bg-black text-white rounded shadow-lg z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
