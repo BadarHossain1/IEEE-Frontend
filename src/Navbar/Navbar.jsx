@@ -53,7 +53,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="bg-[#f7a320] shadow-md  w-full py-4  font-['Roboto']" ref={navRef}>
+        <nav className="bg-[#f7a320]  shadow-md  w-full py-4  font-['Roboto']" ref={navRef}>
 
 
 

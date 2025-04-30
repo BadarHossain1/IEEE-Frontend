@@ -26,7 +26,8 @@ const Banner = () => {
     );
 
     return (
-        <>
+        
+        <div className="relative w-full h-[300px] md:h-[500px] lg:h-[500px] ">
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
@@ -47,15 +48,15 @@ const Banner = () => {
                     "gellary1.jpg", "gellary3.jpg", "gellary7.jpg",
                     "eventbaner.jpg", "about.jpg"
                 ].map((img, index) => (
-                    <SwiperSlide key={index} className="relative h-auto md:h-[90vh] lg:h-[100vh]">
-                        <img src={`../../../public/img/${img}`} alt="" className="w-full h-[350px] object-cover" />
+                    <SwiperSlide key={index} className="relative ">
+                        <img src={`../../../public/img/${img}`} alt="" className="w-[70px] h-[70px] object-cover" />
                         {overlayText}
                     </SwiperSlide>
                 ))}
 
                 
             </Swiper>
-        </>
+        </div>
 
     )
 };
